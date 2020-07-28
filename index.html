@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Project Phase One|COMP1073 Client-Side JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVo9EQucAxyM63SVVf033k3l24ninevOc&callback=initMap">
+    </script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+</head>
+
+<div class="container">
+    <h1>Fast Food To do List</h1>
+    <input type="text" id="input" class="input" placeholder="Add New Items...">
+    <input type="button" id="add" class="add" value="+">
+    <div id="div">
+        <ul>
+            <li><input type="checkbox" id="box">Pizza</li>
+            <li><input type="checkbox" id="box" checked id="check">Burger</li>
+        </ul>
+    </div>
+</div>
+</body>
+<footer class="map">
+    <h2> Fast Food Restaurants Near You </h2>
+    <h1 id="temperature"></h1>
+    <h2 id="description"></h2>
+    <p id="location"></p>
+    <div id="map"></div>
+</footer>
+
+</html>
